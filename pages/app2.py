@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load dataset (replace with actual dataset)
-df1 = pd.read_csv('input2.csv')
+df1 = pd.read_csv('Flixpatrol.csv')
 # Streamlit UI
 st.title("Movie/TV Show Recommendation System")
 
