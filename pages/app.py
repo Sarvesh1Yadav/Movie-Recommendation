@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load dataset (replace with actual dataset)
-df1 = pd.read_csv('input.csv')
+df1 = pd.read_csv('NetflixDataSet.csv')
 
 
 # Streamlit UI
