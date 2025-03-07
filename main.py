@@ -15,7 +15,7 @@ st.write("### How would you like to get movie recommendations?")
 search_by = st.selectbox("Select recommendation basis:", dataset_1_columns + dataset_2_columns)
 
 if search_by in dataset_1_columns:
-    st.page_link("pages/app.py", label="Go to Dataset 1 App 📽️")
+    st.page_link("Pages/app.py", label="Go to Dataset 1 App 📽️")
 
 elif search_by in dataset_2_columns:
-    st.page_link("pages/app2.py", label="Go to Dataset 2 App 🎬")
+    st.page_link("Pages/app2.py", label="Go to Dataset 2 App 🎬")
