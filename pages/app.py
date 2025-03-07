@@ -12,7 +12,7 @@ st.title("Movie/TV Show Recommendation System")
 type_input = st.selectbox("Select Type:", df1['Type'].unique())
 genre_input = st.selectbox("Select Genre:", df1['Genre'].unique())
 year_range = st.slider("Select Premiere Year Range:", int(df1['Premiere'].min()), int(df1['Premiere'].max()), (2010, 2020))
-min_views = st.number_input("Enter Minimum Watchtime:", min_value=0, value=50)
+min_views = st.number_input("Enter Minimum Watchtime between (0 - 800) Million:", min_value=0, value=50)
 
 # Filter Data
 filtered_df = df1[(df1['Type'] == type_input) &
