@@ -22,8 +22,8 @@ search_type = st.radio(
 if "Dataset 1" in search_type:
     
     
-    st.page_link("Pages/app", label="🔍 Go to Dataset 1 Search")
+    st.page_link("pages/app", label="🔍 Go to Dataset 1 Search")
 
 elif "Dataset 2" in search_type:
     
-    st.page_link("Pages/app2", label="🔍 Go to Dataset 2 Search")
+    st.page_link("pages/app2", label="🔍 Go to Dataset 2 Search")
